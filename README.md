@@ -3,9 +3,9 @@
 This project is an ETL pipeline for retrieving anime data from the Shikimori API, processing it, and loading it into a PostgreSQL database using SQLAlchemy.
 
 ## 📌 Features
-- **Extract** (Extract): Fetches a list of popular anime from the Shikimori API.
-- **Transform** (Transform): Formats the data for easy storage.
-- **Load** (Load): Saves data into PostgreSQL. If a record already exists, it is updated.
+- **Extract**: Fetches a list of popular anime from the Shikimori API.
+- **Transform**: Formats the data for easy storage.
+- **Load**: Saves data into PostgreSQL. If a record already exists, it is updated.
 
 ## 📂 Project Structure
 - `main.py` - The main script that runs the ETL process.
